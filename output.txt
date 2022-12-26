@@ -1,0 +1,23 @@
+public class sfs: GenericResponse {
+
+	 public var firstName : String?
+	 public var lastName : String?
+	 public var username : Bool?
+	 public var uid : String?
+	 public var avatar : String?
+	 public var permalink : String?
+	 public var relativeLink : Int?
+	 public var avatarV1 : Double?
+
+	 override open func mapping(map: Map) {
+		 super.mapping(map: map)
+		 firstName <- map["first_name"]
+		 lastName <- map["last_name"]
+		 username <- map["username"]
+		 uid <- map["uid"]
+		 avatar <- map["avatar"]
+		 permalink <- map["permalink"]
+		 relativeLink <- map["relative_link"]
+		 avatarV1 <- map["avatar_v1"]
+	}
+}

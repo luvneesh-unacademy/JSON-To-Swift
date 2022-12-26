@@ -1,0 +1,10 @@
+{
+    "first_name": "Neeraj Kumar",
+    "last_name": "Chaudhary",
+    "username": false,
+    "uid": "XR2G2SXKU7",
+    "avatar": "https://edge.uacdn.net/static/thumbnail/user/111ef03cf1814ba7adb733ba464183b4.jpg?q=100&w=512",
+    "permalink": "https://unacademy.com/@NKCsir",
+    "relative_link": 3,
+    "avatar_v1": 9.2
+}
