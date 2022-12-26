@@ -13,9 +13,6 @@ def countX(lst, x):
             count = count + 1
     return count
  
- 
-
-
 def swiftify():
     nameOfClass = input()
     f = open("input.txt", 'r') 
